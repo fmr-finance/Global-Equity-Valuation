@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local JSON Caches
+data/processed/*.json
+!data/processed/cache_mapping.json
+
+# Generated CSV and HTML outputs
+data/processed/*.csv
+results/*.csv
+results/*.html
+
+# Ignore large raw Excel/CSV data dumps (currently deactivated - ETFs will be uploaded)
+# data/raw/*.xlsx
+# data/raw/*.csv

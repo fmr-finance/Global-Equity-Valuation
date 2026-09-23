@@ -1,0 +1,9 @@
+pandas
+yfinance
+yahooquery
+openpyxl
+python-calamine
+tqdm
+
+plotly
+pycountry
